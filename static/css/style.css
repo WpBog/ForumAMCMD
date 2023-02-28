@@ -1,0 +1,178 @@
+.main-body {
+    background-color:rgb(216, 216, 216);
+}
+
+.head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgba(1, 78, 141, 0.555);
+    border-radius: 23px;
+    
+}
+
+.logo-main {
+    display:flex;
+    margin: auto; 
+    height:auto; 
+    width:auto;
+    overflow: auto;
+    padding: 33px;
+}
+
+.regi {
+    overflow:auto;
+    padding: 33px;
+    position: relative;
+    bottom: 16em;
+}
+
+.greet {
+    text-decoration:overline;
+    text-shadow: 34px;
+    text-align:center;
+    font-size:xx-large ;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.navig{
+    display: flex; 
+    gap: 200px;
+    justify-content:center;
+    font-size:xx-large ;
+    font-family: 'Segoe UI';
+    white-space: nowrap;
+    border-radius: 50px;
+
+}
+
+.navig:hover {
+    background: rgb(39, 15, 78);
+    color: #3a1249;
+    box-shadow:unset 0 0 0 6px #281038;
+    transition: all 1s ease;
+    
+}
+
+a:visited {
+
+    color: rgb(255, 255, 255);
+  }
+  
+a:active {
+    color: rgb(255, 255, 255);
+  }
+
+.main-sec {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content:center;
+    font-size:medium ;
+    font-family: 'Segoe UI';
+    display:flex;
+    flex-direction:column;    
+}
+.note {
+    text-align:center;
+    font-size:xx-large ;
+    background-color: rgba(1, 78, 141, 0.329);
+    overflow: auto;
+    padding:  100px;
+    max-width:1000px;
+    margin: auto;
+    border-radius: 23px;
+    margin-bottom: 1rem;
+    margin-block-start: 1rem;
+}
+
+.new-img {
+    
+    border-radius: 10px;
+}
+
+.foot {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgba(1, 78, 141, 0.555);
+    border-radius: 23px;
+    font-family: 'Segoe UI';
+}
+
+
+.menu-foot {
+    display: inline-flex;
+    gap: 650px;
+    /*font-size:medium ;*/
+    margin:1cm;
+    font-size:large;
+}
+
+.credits {
+    text-align:center;
+    bottom: 16em;
+}
+
+.text-new {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large ;
+    text-align:center;
+    overflow: auto;
+    padding:  100px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 23px;
+    margin-bottom: 1rem;
+    margin-block-start: 1rem;
+    background-color: rgba(111, 114, 116, 0.329);
+}
+
+.h3-mb-3-fw-normal {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+
+
+.form-signin {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large ;
+    text-align:center;
+    overflow: auto;
+    padding:  50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 23px;
+    margin-bottom: 0.5rem;
+    margin-block-start: 1rem;
+    background-color: rgba(111, 114, 116, 0.329);
+}
+
+.form {
+    width:200px;
+    box-shadow:0 0 15px 4px rgba(37, 26, 26, 0.06);
+    border-radius:20px;
+    background-color: rgba(52, 87, 112, 0.329);
+    overflow: auto;
+    padding:  100px;
+    max-width: 1000px;
+    text-align:center;
+    margin:auto;
+
+}
+
+.form-control {
+    text-align:center;
+    margin:10px 0;
+    padding: 10px;
+    border: 0;
+    border-bottom:2px solid #eee;
+    border-radius: 23px;
+    
+}
+
+
+.button-submit {
+    padding: 10px;
+    border-radius: 10px;
+    font-size:large;
+    border: 0;
+    margin:10px 0;
+}
+

@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><AMCMDsys>Регистрация / вход</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="shortcut icon" href="/static/images/AMCMDLOGO.jpg" >
+</head>
+
+
+<section class="head">
+  <header>
+      <a href="http://localhost:8080/">
+          <img src="/static/images/AMCMD_head.png " class = 'logo-main'/>
+      </a>
+
+      <h1 class = "greet">Добро пожаловать на форум программистов!</h1>
+      <nav class = 'navig' >
+          <a style = "text-decoration: none" href="http://localhost:8080/forum_main">Форум</a>
+              <a style = "text-decoration: none" href="http://localhost:8080/free">Фриланс</a>
+              <a style = "text-decoration: none;" href="http://localhost:8080/education">Образование</a>
+              <a style = "text-decoration: none;" href="https://vk.com/amcmd_ent">Группа в ВК</a>
+          </nav>
+        
+  </header>
+</section>
+
+<main class="form-signin">
+  <form action="/login" method="post", class='form-contact'>
+    <h1 class="h3-mb-3-fw-normal"><ya-tr-span data-index="0-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Please sign in" data-translation="Пожалуйста, войдите в систему" data-ch="0" data-type="trSpan">Пожалуйста, войдите в систему</ya-tr-span></h1>
+    <section class = 'form'>
+      
+      <div>
+        <label for="floatingInput"><ya-tr-span data-index="1-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="login" data-translation="Придумайте логин" data-ch="0" data-type="trSpan">Придумайте логин</ya-tr-span></label>
+        <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Your login">
+      </div>
+          <label for="floatingPassword">Пароль</label>
+          <input type="text" name="psw" class="form-control" id="floatingPassword" placeholder="Пароль">
+        </div>
+        
+        <div>
+          <label>
+            <input type="checkbox" value="remember-me"><ya-tr-span data-index="2-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value=" Remember me " data-translation=" Запомнить меня " data-ch="0" data-type="trSpan"> Запомнить меня  </ya-tr-span></label>
+          </div>
+          <button class="button-submit" type="submit"><ya-tr-span data-index="3-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Sign in" data-translation="Вход" data-ch="0" data-type="trSpan">Вход</ya-tr-span></button>
+          
+      </section>
+  </form>
+</main>
+
+<section class = foot>
+  <footer class = 'foot'>
+      <img src="/static/images/AMCMD_head.png" class = 'logo-main'/>
+      <ul>
+          <li ><a href="">О проекте</a>
+          <li ><a href="https://vk.com/im?sel=-216282976">Поддержка</a>
+          <li ><a href="">Юридическая справка</a>
+            <div class = 'credits'>Created by AMCMD team </br>
+              Powered by Flask</div>
+      </ul>
+  </footer>
+</section>
